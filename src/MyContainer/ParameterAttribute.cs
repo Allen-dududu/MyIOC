@@ -4,6 +4,7 @@ using System.Text;
 
 namespace MyContainer
 {
+    [AttributeUsage(AttributeTargets.Parameter)]
     public class ParameterAttribute:Attribute
     {
 
